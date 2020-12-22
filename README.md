@@ -1,2 +1,2 @@
 # notes
-note app in terminal written in python
+basic note app that works over terminal written in python
