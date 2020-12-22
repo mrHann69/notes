@@ -18,7 +18,13 @@ def main():
     principal = Principal()
     cicle = True
     while cicle:
-        print("-------------Menu-------------\n"+"1.crear nota\n"+"2.modificar nota\n"+"3.eliminar nota\n"+"4.listar notas\n"+"0.Salir")
+        print("-------------Menu-------------\n"+
+        "1.crear nota\n"+
+        "2.modificar nota\n"+
+        "3.eliminar nota\n"+
+        "4.listar notas\n"+
+        "0.Salir")
+        
         opcn = int(input("opcion: "))
         if(opcn == 1):
             print("\nCrear Nota \n")
@@ -35,4 +41,4 @@ def main():
         elif(opcn == 0):
             cicle = False
 
-main()
+#main()
